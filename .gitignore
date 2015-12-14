@@ -1,0 +1,4 @@
+node_modules
+*.log
+es6/build
+es5/build
