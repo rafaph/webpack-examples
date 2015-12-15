@@ -4,7 +4,7 @@
 Webpack é um `module bundler`. Um `module bundler` é uma ferramenta para modularização de uma aplicação, que nesse caso é javascript. Permite o uso do padrão [CommonJS](http://wiki.commonjs.org/wiki/CommonJS). Além disso, o Webpack permite usar [loaders](http://webpack.github.io/docs/using-loaders.html) para diversas tarefas. Como dar `require` em css (neste caso, o conteúdo do arquivo css, será incluso dentro da tag `head` do seu HTML) e também compilar código na versão ES2015 (ou ES6) em ES5 do javascript com o `babel-loader`. \o/ \o/.
 
 #### Objetivo
-O objetivo deste repositório é mostrar exemplos usando webpack com `jQuery` e `bootstrap` e também sem usá-los.
+O objetivo deste repositório é mostrar exemplos usando webpack com `jQuery` e `bootstrap` e também com javascript "puro".
 
 #### Estrutura de cada exemplo
 ```
