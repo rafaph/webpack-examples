@@ -16,6 +16,9 @@ var build = function() {
         mangle: false,
         compress: {
           warnings: false
+        },
+        output: {
+          comments: false
         }
       })
     ];

@@ -10,15 +10,18 @@ var webpackConfig = require('./webpack.config');
 
 var build = function() {
   if (env.prod) {
-    webpackConfig.plugins = [
+    webpackConfig.plugins = webpackConfig.plugins.concat([
       new webpack.optimize.UglifyJsPlugin({
         sourceMap: false,
         mangle: false,
         compress: {
           warnings: false
+        },
+        output: {
+          comments: false
         }
       })
-    ];
+    ]);
   }
   return gulp.src(webpackConfig.entry)
     .pipe(webpackStream(webpackConfig))

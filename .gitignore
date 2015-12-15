@@ -1,4 +1,6 @@
 node_modules
 *.log
-es6/build
-es5/build
+es5/build/app.js
+es6/build/app.js
+es5-bootstrap/build/app.js
+es6-bootstrap/build/app.js
