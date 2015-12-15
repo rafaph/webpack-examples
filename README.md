@@ -36,7 +36,7 @@ npm install
 ```sh
 # A flag prod pode ser usada para minificar o bundle gerado.
 gulp [--prod]
-# serão mostrada no terminal as opções com as tasks do exemplo.
+# serão mostradas no terminal as opções com as tasks do exemplo.
 # build: constrói o bundle (app.js).
 # watch: observa os arquivos dentro do diretorio `src`, se houver mudança, o bundle é refeito automaticamente.
 # clean: remove o bundle (app.js) do diretório `build`.
